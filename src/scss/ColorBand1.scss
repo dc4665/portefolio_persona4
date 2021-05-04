@@ -1,0 +1,92 @@
+@import 'config';
+@import 'utilities';
+
+%band-shared {
+    display: inline-block;
+    height: 100%;
+}
+
+%space-shared {
+    //display: inline-block;
+    //height: 100%;
+}
+
+.band-container {
+    position: relative;
+    padding-left: 5rem;
+    height: calc(100vh - 2.9px);
+}
+
+.band{
+    &-1 {
+        @extend %band-shared;
+        border-left: $band-size-3 $band-color-1 solid;
+    }
+
+    &-2 {
+        @extend %band-shared;
+        border-left: $band-size-2 $band-color-2 solid;
+    }
+
+    &-3 {
+        @extend %band-shared;
+        border-left: $band-size-1 $band-color-8 solid;
+    }
+
+    &-4 {
+        @extend %band-shared;
+        border-left: $band-size-2 $band-color-1 solid;
+    }
+
+    &-5 {
+        @extend %band-shared;
+        border-left: $band-size-1 $band-color-1 solid;
+    }
+
+    &-5 {
+        @extend %band-shared;
+        border-left: $band-size-1 $band-color-1 solid;
+    }
+
+    &-5 {
+        @extend %band-shared;
+        border-left: $band-size-1 $band-color-1 solid;
+    }
+
+    &-6 {
+        @extend %band-shared;
+        border-left: $band-size-1 $band-color-5 solid;
+    }
+
+    &-7 {
+        @extend %band-shared;
+        border-left: $band-size-2 $band-color-4 solid;
+    }
+
+    &-8 {
+        @extend %band-shared;
+        border-left: $band-size-3 $band-color-3 solid;
+    }
+
+    &-9 {
+        @extend %band-shared;
+        border-left: $band-size-1 $band-color-6 solid;
+    }
+
+    &-10 {
+        @extend %band-shared;
+        border-left: $band-size-2 $band-color-7 solid;
+    }
+}
+
+.space{
+    &-1 {
+        @extend %band-shared;
+        margin-left: 3px;
+    }
+
+    &-2 {
+        @extend %band-shared;
+        margin-left: 6px;
+    }
+}
