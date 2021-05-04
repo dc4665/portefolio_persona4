@@ -1,9 +1,12 @@
 import './App.css';
+import BackgroundMain from './components/BackgroundMain';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Portefolio</h1>
+      <BackgroundMain>
+
+      </BackgroundMain>
     </div>
   );
 }
