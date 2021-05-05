@@ -1,11 +1,12 @@
 import './App.css';
-import BackgroundMain from './components/BackgroundMain';
 import ColorBand1 from './components/ColorBand1';
+import MainMenu from './components/MainMenu';
 
 function App() {
   return (
     <div className="App">
-      <ColorBand1></ColorBand1>
+      <ColorBand1/>
+      <MainMenu/>
     </div>
   );
 }
