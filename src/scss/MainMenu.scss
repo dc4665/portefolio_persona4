@@ -1,0 +1,10 @@
+@import 'config';
+@import 'utilities';
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+}
