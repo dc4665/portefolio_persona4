@@ -1,4 +1,18 @@
+@font-face {
+    font-family: 'dejavu_sansbook';
+    src: url('./fonts/DejaVuSans-webfont.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amadeus';
+    src: local('Amadeus'), url('./fonts/Amadeus.ttf') format('truetype');
+}
+
 body {
     margin: 0;
     background-color: #f2e529;
+    /* font-family: "dejavu_sansbook"; */
+    font-family: "Roboto";
 }

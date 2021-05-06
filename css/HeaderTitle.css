@@ -1,0 +1,21 @@
+/* Color variables */
+/* Color buttons */
+/* Fond colors */
+/* Color bands */
+/* Size bands */
+.horizontal-line {
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+  height: 1rem;
+  background: #f28705;
+  border-radius: 4px;
+}
+
+.section-name {
+  position: absolute;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff5a8;
+  -webkit-text-stroke: 3px #f28705;
+}
