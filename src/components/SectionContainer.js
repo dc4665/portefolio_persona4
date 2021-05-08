@@ -9,6 +9,9 @@ function SectionContainer() {
             <div className="section-title">
                 <HeaderTitle/>
             </div>
+            <div className="section-article">
+
+            </div>
         </section>
     )
 }

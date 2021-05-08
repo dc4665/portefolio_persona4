@@ -1,10 +1,13 @@
+//For now it's not used, to be removed later (?)
+
 @import 'config';
 @import 'utilities';
 
 .main-menu {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 12rem;
-    left: 12rem;
+    //position: absolute;
+    // top: 12rem;
+    // left: 12rem;
+    padding: auto;
 }
