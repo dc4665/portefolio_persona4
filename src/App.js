@@ -1,11 +1,17 @@
 import './App.css';
+import React, { useState } from 'react'
 import Wrapper from './components/Wrapper';
+import { MenuContext } from './contexts/MenuContext';
 
 
 function App() {
+  const [currentMenu, setCurrentMenu] = useState();
+  
   return (
     <div className="App">
-      <Wrapper />
+      <MenuContext.Provider value={{ currentMenu, setCurrentMenu}}>
+        <Wrapper />
+      </MenuContext.Provider>
     </div>
   );
 }
