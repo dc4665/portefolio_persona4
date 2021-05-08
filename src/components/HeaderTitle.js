@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './HeaderTitle.min.css';
 
-function HeaderTitle() {
+function HeaderTitle(props) {
     return (
         <>
             <div className="horizontal-line"></div>
-            <span className="section-name">Profil</span>
+            <span className="section-name">{props.title}</span>
         </>
     )
 }

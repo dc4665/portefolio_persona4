@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import MenuButton from './MenuButton'
 import './MainMenu.min.css'
+import { MenuContext } from '../contexts/MenuContext'
 
 function MainMenu() {
     //console.log(global.language);
