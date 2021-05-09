@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useContext } from 'react'
 import HeaderTitle from './HeaderTitle'
+import Page from './Page'
 import { MenuContext } from '../contexts/MenuContext'
 import './SectionContainer.min.css'
 
@@ -13,7 +14,7 @@ function SectionContainer() {
                 <HeaderTitle title={currentMenu}/>
             </div>
             <div className="section-article">
-
+                <Page />
             </div>
         </section>
     )

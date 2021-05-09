@@ -15,4 +15,8 @@ body {
     background-color: #f2e529;
     /* font-family: "dejavu_sansbook"; */
     font-family: "Roboto";
+
+    /* Scrollbar design */
+    scrollbar-width: thin;
+    scrollbar-color: #41403E #fff5a8;
 }

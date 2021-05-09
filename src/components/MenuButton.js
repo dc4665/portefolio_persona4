@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import './MenuButton.min.css';
 import { MenuContext } from '../contexts/MenuContext'
 
