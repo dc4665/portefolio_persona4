@@ -1,10 +1,10 @@
 .section-container {
-    //position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 10vh;
     right: 25vh;    
     width: 80%;
     height: 85vh;
-    display: flex;
     border: red 2px solid;
 }
 
@@ -18,5 +18,7 @@
 }
 
 .section-article {
-
+    height: 100%;
+    border: 3px white dashed;
+    overflow: auto;
 }

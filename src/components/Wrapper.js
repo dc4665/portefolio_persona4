@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './Wrapper.min.css'
 
 import ColorBand1 from './ColorBand1';
 import MainMenu from './MainMenu';
-import HeaderTitle from './HeaderTitle';
 import SectionContainer from './SectionContainer';
 
 
