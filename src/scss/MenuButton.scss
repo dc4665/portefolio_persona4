@@ -24,5 +24,10 @@
             background-color: $btn-bg-color-hover;
         }
     }
+
+    &-is-selected {
+        color: $btn-text-color-hover;
+        background-color: $btn-bg-color-hover;
+    }
 }
 
