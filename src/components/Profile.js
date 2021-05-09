@@ -2,6 +2,7 @@ import React from 'react'
 import './Profile.min.css'
 
 function Profile() {
+    
     return (
         <div id="profile-page">
             <h1>Title</h1>

@@ -15,7 +15,7 @@ function MainMenu() {
 
     return (
         <>
-            <MenuButton name={menu1}/>
+            <MenuButton name={menu1} isSelected={false}/>
             <MenuButton name={menu2}/>
             <MenuButton name={menu3}/>
             <MenuButton name={menu4}/>
