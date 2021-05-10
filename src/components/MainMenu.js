@@ -15,11 +15,11 @@ function MainMenu() {
 
     return (
         <>
-            <MenuButton name={menu1} isSelected={false}/>
+            <MenuButton name={menu1}/>
             <MenuButton name={menu2}/>
             <MenuButton name={menu3}/>
             <MenuButton name={menu4}/>
-            <MenuButton name={menu5} />
+            <MenuButton name={menu5}/>
         </>
     )
 }

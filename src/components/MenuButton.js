@@ -5,10 +5,10 @@ import { MenuContext } from "../contexts/MenuContext";
 function MenuButton(props) {
     const { setCurrentMenu } = useContext(MenuContext);
     const { currentMenu } = useContext(MenuContext);
-    let selected;
+    let selected = false;
 
     if(currentMenu === props.name) {
-        selected = !props.isSelected;
+        selected = !props.selected;
     }
     
     return (
@@ -33,15 +33,6 @@ function MenuButton(props) {
                 {props.name}
             </button>
             } 
-
-            {/* <button
-                className="btn-main-menu"
-                onClick={() => {
-                    setCurrentMenu(props.name);
-                }}
-            >
-                {props.name}
-            </button> */}
         </>
     );
 }
