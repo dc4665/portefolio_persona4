@@ -1,9 +1,14 @@
 import React from 'react'
+import ColorBand2 from './ColorBand2'
+import './Skills.min.css'
+
 
 function Skills() {
     return (
-        <div>
-            <h1>This is the skill page</h1>
+        <div id="skills-page">
+            <ColorBand2 />
+        
+        
         </div>
     )
 }

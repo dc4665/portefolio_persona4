@@ -1,3 +1,5 @@
+@import 'config';
+
 .section-container {
     display: flex;
     flex-direction: column;
@@ -18,7 +20,8 @@
 }
 
 .section-article {
-    height: 100%;
+    background-color: $secondary-color;
+    height: 90%;
     border: 3px white dashed;
-    overflow: auto;
+    //overflow: auto;
 }

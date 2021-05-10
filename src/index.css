@@ -19,4 +19,7 @@ body {
     /* Scrollbar design */
     scrollbar-width: thin;
     scrollbar-color: #41403E #fff5a8;
+
+    /* To hide the scrollbar and avoid overflow problems*/
+    overflow: hidden;
 }

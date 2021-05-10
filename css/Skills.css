@@ -5,7 +5,8 @@
 /* Fond colors */
 /* Color bands */
 /* Color bands skills */
-.page-container {
+#skills-page {
+  position: relative;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
