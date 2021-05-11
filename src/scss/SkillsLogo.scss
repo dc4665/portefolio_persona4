@@ -1,0 +1,12 @@
+@import 'config';
+@import '_utilities';
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 6rem;
+    top: 2rem;
+}
+
