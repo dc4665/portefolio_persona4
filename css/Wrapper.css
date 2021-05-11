@@ -3,7 +3,6 @@
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  border: 4px blue solid;
 }
 
 #menu {
@@ -18,7 +17,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 20%;
-  border: green 2px dotted;
   margin: 0 5% 0 10%;
 }
 
@@ -30,5 +28,4 @@
       -ms-flex-align: center;
           align-items: center;
   width: 70%;
-  border: purple 2px dotted;
 }

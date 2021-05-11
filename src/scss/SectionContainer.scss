@@ -7,7 +7,7 @@
     right: 25vh;    
     width: 80%;
     height: 85vh;
-    border: red 2px solid;
+    //border: red 2px solid;
 }
 
 .section-title {
@@ -15,13 +15,13 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 10%;
-    border:rebeccapurple 2px solid;
+    height: 5rem;
+    //border:rebeccapurple 2px solid;
 }
 
 .section-article {
     background-color: $secondary-color;
-    height: 90%;
-    border: 3px white dashed;
+    height: 90%; 
     //overflow: auto;
+    //border: 3px white dashed;
 }
