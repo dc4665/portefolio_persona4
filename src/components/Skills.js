@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
+import { SkillMenuContext } from '../contexts/SkillMenuContext'
 import ColorBand2 from './ColorBand2'
 import SkillsMenu from './SkillsMenu'
+import SkillsLogo from './SkillsLogo'
 import './Skills.min.css'
-import { SkillMenuContext } from '../contexts/SkillMenuContext'
 
 
 function Skills() {
-    const [currentSkill, setCurrentSkill ] = useState();
+    const [currentSkill, setCurrentSkill ] = useState("HTML - CSS3 - SASS");
 
 
     return (
@@ -16,7 +17,9 @@ function Skills() {
             
                 <div id="skills-menu">
                     <SkillsMenu />
-                </div>          
+                </div>
+
+                <SkillsLogo />          
             </div>
         </SkillMenuContext.Provider>
     )
