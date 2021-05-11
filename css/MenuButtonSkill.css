@@ -1,0 +1,49 @@
+/* Color variables */
+/* Font color */
+/* Background-color */
+/* Color buttons */
+/* Fond colors */
+/* Color bands */
+/* Color bands skills */
+/* Size bands */
+/* Menu Skill Buttons Container*/
+.btn-skill-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Menu Skill Buttons */
+.btn-skill-menu {
+  background-color: #f2e529;
+  border: none;
+}
+
+.btn-skill-menu {
+  width: 10rem;
+  padding: 0.8rem 0 0.8rem 2.5rem;
+  text-align: left;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.btn-skill-menu:hover {
+  width: 12rem;
+  color: #ffffff;
+  background-color: #41403E;
+}
+
+.btn-skill-menu-is-selected {
+  width: 12rem;
+  color: #ffffff;
+  background-color: #41403E;
+}
+
+.btn-skill-name {
+  color: #f28705;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

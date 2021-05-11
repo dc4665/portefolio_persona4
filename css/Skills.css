@@ -5,8 +5,13 @@
 /* Fond colors */
 /* Color bands */
 /* Color bands skills */
-/* Size bands */
-.main-menu {
+#skills-page {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+#skills-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,5 +19,4 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: auto;
 }

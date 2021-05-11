@@ -4,6 +4,7 @@
 /* Color buttons */
 /* Fond colors */
 /* Color bands */
+/* Color bands skills */
 /* Size bands */
 .band-1, .band-2, .band-3, .band-4, .band-5, .band-6, .band-7, .band-8, .band-9, .band-10, .space-1, .space-2 {
   display: inline-block;
@@ -13,7 +14,7 @@
 .band-container {
   position: absolute;
   padding-left: 5rem;
-  height: calc(100vh - 2.9px);
+  height: 100%;
   z-index: -1;
 }
 

@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ColorBand2 from './ColorBand2'
+import SkillsMenu from './SkillsMenu'
+import './Skills.min.css'
+import { SkillMenuContext } from '../contexts/SkillMenuContext'
+
 
 function Skills() {
+    const [currentSkill, setCurrentSkill ] = useState();
+
+
     return (
-        <div>
-            <h1>This is the skill page</h1>
-        </div>
+        <SkillMenuContext.Provider value={{currentSkill, setCurrentSkill}}>
+            <div id="skills-page">
+                <ColorBand2 />
+            
+                <div id="skills-menu">
+                    <SkillsMenu />
+                </div>          
+            </div>
+        </SkillMenuContext.Provider>
     )
 }
 

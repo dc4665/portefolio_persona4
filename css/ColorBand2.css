@@ -1,0 +1,50 @@
+/* Color variables */
+/* Font color */
+/* Background-color */
+/* Color buttons */
+/* Fond colors */
+/* Color bands */
+/* Color bands skills */
+/* Size bands */
+.band-skills-1, .band-skills-2, .band-skills-3, .band-skills-4, .band-skills-5, .band-skills-6, .space-skill-1, .space-skill-2 {
+  display: inline-block;
+  height: 100%;
+}
+
+.band-container-skills {
+  position: absolute;
+  right: 2rem;
+  height: 100%;
+}
+
+.band-skills-1 {
+  border-left: 0.5vw #82110C solid;
+}
+
+.band-skills-2 {
+  border-left: 1vw #f28705 solid;
+}
+
+.band-skills-3 {
+  border-left: 2vw #A09994 solid;
+}
+
+.band-skills-4 {
+  border-left: 0.5vw #82110C solid;
+}
+
+.band-skills-5 {
+  border-left: 0.5vw #8789E1 solid;
+}
+
+.band-skills-6 {
+  border-left: 1vw #BD7925 solid;
+}
+
+.space-skill-1 {
+  margin-left: 3px;
+}
+
+.space-skill-2 {
+  margin-left: 6px;
+}
