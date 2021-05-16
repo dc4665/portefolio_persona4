@@ -5,6 +5,7 @@ import { MenuContext } from '../contexts/MenuContext'
 /* Below are the different Components representing the different pages */
 import Profile from './Profile'
 import Skills from './Skills'
+import Projects from './Projects'
 
 
 
@@ -19,6 +20,9 @@ function Page() {
             
             case "Skills":
                 return <Skills />
+
+            case "Projects":
+                return <Projects/>
 
             default:
                 return <p>Default page</p>;

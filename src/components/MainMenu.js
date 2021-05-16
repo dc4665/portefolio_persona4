@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import MenuButton from './MenuButton'
 import './MainMenu.min.css'
 
@@ -6,11 +6,11 @@ import './MainMenu.min.css'
 function MainMenu() {
 
     /* Menu States */
-    let [menu1, setMenu1] = useState('Profile');
-    let [menu2, setMenu2] = useState('Skills');
-    let [menu3, setMenu3] = useState('Projects');
-    let [menu4, setMenu4] = useState('Social Links');
-    let [menu5, setMenu5] = useState('Contact');
+    let [menu1] = useState('Profile');
+    let [menu2] = useState('Skills');
+    let [menu3] = useState('Projects');
+    let [menu4] = useState('Social Links');
+    let [menu5] = useState('Contact');
 
 
     return (

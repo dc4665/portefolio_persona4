@@ -1,0 +1,21 @@
+@import "config";
+
+.tv-container {
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    position: relative;
+
+    p {
+        color: $third-color;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+}
+
+.tv-img {
+    width: 400px;
+    z-index:2;
+}
