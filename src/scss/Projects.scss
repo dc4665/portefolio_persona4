@@ -1,0 +1,9 @@
+@import 'config';
+
+#projects-page {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $secondary-color;
+    //padding: 1rem 3rem;
+    height: 100%;
+}

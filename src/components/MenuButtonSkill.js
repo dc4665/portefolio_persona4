@@ -16,7 +16,7 @@ function MenuButtonSkill(props) {
             {selectedSkill ? (
                 <>
                     <button
-                        class="btn-skill-menu btn-skill-menu-is-selected"
+                        className="btn-skill-menu btn-skill-menu-is-selected"
                         onMouseOver={() => {
                             setCurrentSkill(props.name);
                         }}
@@ -26,7 +26,7 @@ function MenuButtonSkill(props) {
             ) : (
                 <>
                     <button
-                        class="btn-skill-menu"
+                        className="btn-skill-menu"
                         onMouseOver={() => {
                             setCurrentSkill(props.name);
                         }}
