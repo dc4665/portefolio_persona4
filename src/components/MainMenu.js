@@ -9,8 +9,7 @@ function MainMenu() {
     let [menu1] = useState('Profile');
     let [menu2] = useState('Skills');
     let [menu3] = useState('Projects');
-    let [menu4] = useState('Social Links');
-    let [menu5] = useState('Contact');
+    let [menu4] = useState('Contact');
 
 
     return (
@@ -19,7 +18,6 @@ function MainMenu() {
             <MenuButton name={menu2}/>
             <MenuButton name={menu3}/>
             <MenuButton name={menu4}/>
-            <MenuButton name={menu5}/>
         </>
     )
 }
