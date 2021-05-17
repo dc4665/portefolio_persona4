@@ -6,6 +6,7 @@ import { MenuContext } from '../contexts/MenuContext'
 import Profile from './Profile'
 import Skills from './Skills'
 import Projects from './Projects'
+import Contact from './Contact'
 
 
 
@@ -23,6 +24,9 @@ function Page() {
 
             case "Projects":
                 return <Projects/>
+
+            case "Contact":
+                return <Contact/>
 
             default:
                 return <p>Default page</p>;
