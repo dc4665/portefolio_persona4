@@ -1,1 +1,1 @@
-.skill-logo{-webkit-filter:drop-shadow(-10px 10px 0 #f2e529);filter:drop-shadow(-10px 10px 0 #f2e529);margin-bottom:1.5rem}
+.skill-logo{-webkit-filter:drop-shadow(-10px 10px 0 #f2e529);filter:drop-shadow(-10px 10px 0 #f2e529);margin-bottom:1.5rem;-webkit-animation:0.2s linear logo-animation;animation:0.2s linear logo-animation}@-webkit-keyframes logo-animation{from{margin-right:-100%}to{margin-right:0%}}@keyframes logo-animation{from{margin-right:-100%}to{margin-right:0%}}

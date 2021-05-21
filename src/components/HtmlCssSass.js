@@ -4,7 +4,7 @@ import './Logo.min.css'
 function HtmlCssSass() {
     return (
         <>
-            <img className="skill-logo" src="img/html.png" alt="html" width="120rem"/>
+            <img className="skill-logo" src="img/html.png" alt="html" width="120rem" height="10%"/>
 
             <img className="skill-logo" src="img/css.png" alt="html" width="120rem"/>
 
