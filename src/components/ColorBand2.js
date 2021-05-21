@@ -6,8 +6,8 @@ function ColorBand2() {
         <div className="band-container-skills">
             <span className="band-skills-1"></span>
             <span className="space-skill-1"></span>
-            <span className="band-skills-2"></span>
-            <span className="space-skill-2"></span>
+            {/* <span className="band-skills-2"></span>
+            <span className="space-skill-2"></span> */}
             <div className="special-band-container-2">
                 <svg
                     className="wave-2"
