@@ -4,6 +4,7 @@ import './Wrapper.min.css'
 import ColorBand1 from './ColorBand1';
 import MainMenu from './MainMenu';
 import SectionContainer from './SectionContainer';
+import BackgroundSquares from './BackgroundSquares';
 
 
 function Wrapper() {
@@ -18,6 +19,7 @@ function Wrapper() {
                     <SectionContainer/>
                 </div>        
             </div>
+            <BackgroundSquares/>
         </>
     )
 }
