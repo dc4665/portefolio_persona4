@@ -1,0 +1,39 @@
+@import "config";
+
+//$time : random(500) + ms;
+
+.blinking-square {
+    background-color: $secondary-color;
+    border-radius: 25px 25px 25px 25px / 75px 75px 75px 75px;
+    width: 7vw;
+    height: 9vh;
+    margin: 5px;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0.1;
+    }
+
+    12% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.3;
+    }
+    30% {
+        opacity: 1;
+    }
+
+    72% {
+        opacity: 0.2;
+    }
+
+    77% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
