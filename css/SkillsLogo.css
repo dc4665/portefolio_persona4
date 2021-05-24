@@ -21,3 +21,42 @@
   right: 6rem;
   top: 2rem;
 }
+
+.skills-description-container {
+  position: absolute;
+  padding: 0 1rem;
+  bottom: 10%;
+  width: 40%;
+  background-color: #41403E;
+  border-radius: 0px 5px 5px 0px;
+  border-left: 2rem solid #f28705;
+  -webkit-animation: 0.2s linear description-animation;
+          animation: 0.2s linear description-animation;
+}
+
+.skills-description-container h2 {
+  color: #f28705;
+  margin-bottom: 0;
+}
+
+.skills-description-container p {
+  color: #ffffff;
+}
+
+@-webkit-keyframes description-animation {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes description-animation {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
