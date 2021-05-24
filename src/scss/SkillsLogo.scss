@@ -1,5 +1,5 @@
 @import 'config';
-@import '_utilities';
+@import 'utilities';
 
 .skills-container {
     display: flex;
@@ -10,3 +10,32 @@
     top: 2rem;
 }
 
+.skills-description-container {
+    position: absolute;
+    padding: 0 1rem;
+    bottom: 10%;
+    width: 40%;
+    background-color: $bg-dark;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 2rem solid $third-color; 
+
+    h2 {
+        color: $third-color;
+        margin-bottom: 0;
+    }
+
+    p {
+        color: $font-light;
+    }
+
+    animation: 0.2s linear description-animation;
+}
+
+@keyframes description-animation {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
