@@ -7,7 +7,7 @@ function MenuButton(props) {
     const { currentMenu } = useContext(MenuContext);
     let selected = false;
 
-    if(currentMenu === props.name) {
+    if(currentMenu === props.value) {
         selected = !props.selected;
     }
     
@@ -18,7 +18,7 @@ function MenuButton(props) {
                 <button
                 className="btn-main-menu btn-is-selected"
                 onClick={() => {
-                    setCurrentMenu(props.name);
+                    setCurrentMenu(props.value);
                 }}
                 >
                 {props.name}
@@ -27,7 +27,7 @@ function MenuButton(props) {
                 <button
                 className="btn-main-menu"
                 onClick={() => {
-                    setCurrentMenu(props.name);
+                    setCurrentMenu(props.value);
                 }}
             >
                 {props.name}
@@ -38,3 +38,8 @@ function MenuButton(props) {
 }
 
 export default MenuButton;
+
+/* 
+    props.name => it's only the name in the button
+    props.value => it's the important part, which influence all the other components to know in which menu we currently are.
+*/

@@ -5,6 +5,7 @@ import ColorBand1 from './ColorBand1';
 import MainMenu from './MainMenu';
 import SectionContainer from './SectionContainer';
 import BackgroundSquares from './BackgroundSquares';
+import LanguagesMenu from './LanguagesMenu';
 
 
 function Wrapper() {
@@ -14,6 +15,7 @@ function Wrapper() {
             <div className="wrapper">
                 <div id="menu">
                     <MainMenu/>
+                    <LanguagesMenu/>
                 </div>
                 <div id="section">
                     <SectionContainer/>

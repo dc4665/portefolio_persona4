@@ -1,0 +1,27 @@
+@import 'config';
+
+.btn-lang-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-lang {
+    border: none;
+    background-color: $secondary-color;
+    margin: 0 0.2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: $third-color;
+    border-radius: 5px;
+
+    &:hover {
+        color: $btn-text-color-hover;
+        background-color: $btn-bg-color-hover;
+    }
+}
+
+.active-language {
+    color: $btn-text-color-hover;
+    background-color: $btn-bg-color-hover;
+}

@@ -35,15 +35,15 @@ function ColorBand1() {
                             r="418.96"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop offset="0" stop-color="#fff200" />
-                            <stop offset="0.08" stop-color="#fadc07" />
-                            <stop offset="0.2" stop-color="#f5c310" />
-                            <stop offset="0.33" stop-color="#f1af16" />
-                            <stop offset="0.48" stop-color="#eea11b" />
-                            <stop offset="0.66" stop-color="#ec991d" />
-                            <stop offset="1" stop-color="#f28705" />
-                            <stop offset="1" stop-color="#ef7324" />
-                            <stop offset="1" stop-color="#f15a29" />
+                            <stop offset="0" stopColor="#fff200" />
+                            <stop offset="0.08" stopColor="#fadc07" />
+                            <stop offset="0.2" stopColor="#f5c310" />
+                            <stop offset="0.33" stopColor="#f1af16" />
+                            <stop offset="0.48" stopColor="#eea11b" />
+                            <stop offset="0.66" stopColor="#ec991d" />
+                            <stop offset="1" stopColor="#f28705" />
+                            <stop offset="1" stopColor="#ef7324" />
+                            <stop offset="1" stopColor="#f15a29" />
                         </radialGradient>
                     </defs>
                     <title>wave</title>

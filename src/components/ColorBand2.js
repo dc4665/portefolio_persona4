@@ -24,11 +24,11 @@ function ColorBand2() {
                             gradientTransform="translate(-8.75 206.96) rotate(-2.67) scale(1 0.48)"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop offset="0" stop-color="#f37d80" />
-                            <stop offset="0.09" stop-color="#eb7677" />
-                            <stop offset="0.24" stop-color="#d4625e" />
-                            <stop offset="0.43" stop-color="#af4335" />
-                            <stop offset="0.58" stop-color="#82110C" />
+                            <stop offset="0" stopColor="#f37d80" />
+                            <stop offset="0.09" stopColor="#eb7677" />
+                            <stop offset="0.24" stopColor="#d4625e" />
+                            <stop offset="0.43" stopColor="#af4335" />
+                            <stop offset="0.58" stopColor="#82110C" />
                         </radialGradient>
                     </defs>
                     <title>wave-1</title>
