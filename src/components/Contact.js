@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import emailjs from 'emailjs-com'
 import ReCAPTCHA from "react-google-recaptcha"
 import './Contact.min.css'
+import { LanguageContext } from '../contexts/LanguageContext';
 
 function fadingPrompt(element) {
     setTimeout(()=>{element.style.display = "none";}, 5000)
@@ -28,17 +29,64 @@ function sendEmail(e) {
 }
 
 function Contact() {
+    /* Setting the language */
+    const {language} = useContext(LanguageContext);
+
+    /* Setting the labels */
+    const [title1Label, setTitle1Label] = useState("Contact Me");
+    const [title2Label, setTitle2Label] = useState("Add Me On");
+    const [emailLabel, setEmailLabel ] = useState("Email");
+    const [subjectLabel, setSubjectLabel] = useState("Subject");
+    const [messageLabel, setMessageLabel] = useState("Message");
+    const [buttonLabel, setButtonLabel] = useState("Send");
+
+    useEffect(() => {
+        if(language === "fr-fr") {
+            setTitle1Label("Me contacter");
+            setTitle2Label("Ajoutez moi sur");
+            setEmailLabel("Votre Email");
+            setSubjectLabel("Sujet");
+            setMessageLabel("Votre Message");
+            setButtonLabel("Envoyez")
+        }
+        else if(language === "ja") {
+            setTitle1Label("お問い合わせ");
+            setTitle2Label("追加してください");
+            setEmailLabel("メール");
+            setSubjectLabel("件名");
+            setMessageLabel("メッセージ");
+            setButtonLabel("送信");
+        }
+        else if(language === "en-us") {
+            setTitle1Label("Contact Me");
+            setTitle2Label("Add Me On");
+            setEmailLabel("Email");
+            setSubjectLabel("Subject");
+            setMessageLabel("Message");
+            setButtonLabel("Send");
+        }
+        else {
+            setTitle1Label("Contact Me");
+            setTitle2Label("Add Me On");
+            setEmailLabel("Email");
+            setSubjectLabel("Subject");
+            setMessageLabel("Message");
+            setButtonLabel("Send");
+        }
+    }, [language])
+    
+
     return (
         <div id="contact-container">
             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
             <div className="form-container">
                 <form className="contact-form" onSubmit={sendEmail}>
-                    <h1>Contact Me</h1>
-                    <label>Email</label>
+                    <h1>{title1Label}</h1>
+                    <label>{emailLabel}</label>
                     <input type="email" name="user_email" className="input-style"/>
-                    <label>Subject</label>
+                    <label>{subjectLabel}</label>
                     <input type="text" name="subject" className="input-style"/>
-                    <label>Message</label>
+                    <label>{messageLabel}</label>
                     <textarea name="message" rows="10" className="textarea-style"/>
                     <div className="recaptcha">
                         <ReCAPTCHA
@@ -46,13 +94,13 @@ function Contact() {
                             theme="dark"
                         />
                     </div>
-                    <input type="submit" value="Send" className="btn-submit"/>             
+                    <input type="submit" value={buttonLabel} className="btn-submit"/>             
                 </form>
             </div>
             
 
             <div className="sns">
-                <h1>Add me on</h1>
+                <h1>{title2Label}</h1>
                 <a href="https://www.linkedin.com/in/dai-cao/" target="_blank" rel="noreferrer"><img src="img/linkedin.png" alt="" /></a>
             </div>
     

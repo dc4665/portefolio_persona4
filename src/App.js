@@ -6,12 +6,13 @@ import { MenuContext } from './contexts/MenuContext';
 
 
 function App() {
-  const [currentMenu, setCurrentMenu] = useState("To be removed later");
+  const [currentMenu, setCurrentMenu] = useState("Profile");
   const [language, setLanguage] = useState(navigator.language);
+  const value = { language, setLanguage };
 
   return (
     <div className="App">
-      <LanguageContext.Provider value={{ language, setLanguage }}>
+      <LanguageContext.Provider value={value}>
         <MenuContext.Provider value={{ currentMenu, setCurrentMenu }}>
           <Wrapper />
         </MenuContext.Provider>
