@@ -6,6 +6,7 @@ import MainMenu from './MainMenu';
 import SectionContainer from './SectionContainer';
 import BackgroundSquares from './BackgroundSquares';
 import LanguagesMenu from './LanguagesMenu';
+import WelcomeDisclaimer from './WelcomeDisclaimer';
 
 
 function Wrapper() {
@@ -22,6 +23,7 @@ function Wrapper() {
                 </div>        
             </div>
             <BackgroundSquares/>
+            <WelcomeDisclaimer/>
         </>
     )
 }
