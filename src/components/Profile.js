@@ -10,12 +10,104 @@ function Profile() {
 
         return (
             <div id="profile-page">
-                <h1>Title FRANÇAIS</h1>
-                <p>Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d'attente. L'avantage de le mettre en latin est que l'opérateur sait au premier coup d'oeil que la page contenant ces lignes n'est pas valide, et surtout l'attention du client n'est pas dérangée par le contenu, il demeure concentré seulement sur l'aspect graphique. </p>
-                <h1>Title FRANÇAIS</h1>
-                <p>Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une occupation normale. La méthode simpliste consistant à copier-coller un court texte plusieurs fois (« ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ») a l'inconvénient de ne pas permettre une juste appréciation typographique du résultat final. Ce texte a pour autre avantage d'utiliser des mots de longueur variable, essayant de simuler une occupation normale. La méthode simpliste consistant à copier-coller un court texte plusieurs fois (« ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ceci est un faux-texte ») a l'inconvénient de ne pas permettre une juste appréciation typographique du résultat final.</p>
-                <h1>Title FRANÇAIS</h1>
-                <p>l circule des centaines de versions différentes du Lorem ipsum, mais ce texte aurait originellement été tiré de l'ouvrage de Cicéron, De Finibus Bonorum et Malorum (Liber Primus, 32), texte populaire à cette époque, dont l'une des premières phrases est : « Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... » (« Il n'existe personne qui aime la souffrance pour elle-même, ni qui la recherche ni qui la veuille pour ce qu'elle est... »). l circule des centaines de versions différentes du Lorem ipsum, mais ce texte aurait originellement été tiré de l'ouvrage de Cicéron, De Finibus Bonorum et Malorum (Liber Primus, 32), texte populaire à cette époque, dont l'une des premières phrases est : « Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... » (« Il n'existe personne qui aime la souffrance pour elle-même, ni qui la recherche ni qui la veuille pour ce qu'elle est... »).</p>
+                <h2>Qui suis-je ?</h2>
+                <p>
+                    Je m’appelle Dai et suis un développeur web au parcours atypique habitant à Strasbourg. Après avoir étudié l’anglais et le japonais à l’université de Strasbourg, et obtenu un Master en science de l’éducation, je suis parti vivre au Japon pendant deux ans.
+                </p> 
+                <p>
+                    Au Japon j’ai eu le plaisir de travailler à la “Tokyo One Piece Tower” dans le marketing, la communication et la traduction (le parc a malheureusement fermé définitivement ses portes à cause du coronavirus en 2020). J’ai ensuite travaillé comme enseignant de français et d’anglais en freelance.
+                </p> 
+                <p>
+                    Ces deux années ont été pour moi une très belle expérience. J’ai pu non seulement m’améliorer en japonais, découvrir le marketing, l’enseignement, vivre dans une culture différente, mais aussi en apprendre beaucoup sur moi-même. C’est pourquoi j’ai décidé de revenir en France en 2019 afin d’entreprendre une reconversion professionnelle et devenir développeur web. J’ai entrepris cette reconversion en intégrant une formation continue à la CCI de Colmar, puis en rejoignant le CESI pour une formation en alternance.
+                </p> 
+                <p>
+                    Je recherche à présent un emploi de développeur web qui me permette de monter en compétence tout en m’appuyant sur mes expériences précédentes.
+                </p>
+                <h2>Expériences Professionnelles</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>Développeur Informatique - Roederer (Alternance)</li>
+                            <li>Strasbourg</li>
+                            <li>09/2020 - présent</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Enseignant Freelance français et anglais</li>
+                            <li>Tokyo</li>
+                            <li>2018</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Staff International en Communication : Tokyo One Piece Tower</li>
+                            <li>Tokyo</li>
+                            <li>2017</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Professeur Stagiaire : Education Nationale</li>
+                            <li>Lyon / Strasbourg</li>
+                            <li>2014-2016</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Rédacteur - Traducteur: Japoninfos.com</li>
+                            <li>Travail à distance</li>
+                            <li>2013-2016</li>
+                        </ul>
+                    </div>
+                </ul>
+
+                <h2>Formation</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>Bac + 3 Responsable en ingénierie des logiciels</li>
+                            <li>CESI - Strasbourg</li>
+                            <li>09/2020 - 09/2021</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bac + 2 Développeur intégrateur web PHP orienté objet</li>
+                            <li>CCI - Colmar</li>
+                            <li>10/2019 - 07/2020</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Master 2 MEEF - Métier de l’enseignement</li>
+                            <li>ESPE Lyon/Strasbourg </li>
+                            <li>2014 - 2016</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Licence 2 LLCE Japonais</li>
+                            <li>Université de Strasbourg</li>
+                            <li>2012 - 2014</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Licence 3 LLCE Anglais</li>
+                            <li>Université de Strasbourg</li>
+                            <li>2009 - 2012</li>
+                        </ul>
+                    </div>
+                </ul>
             </div>
         )
     } 
@@ -23,12 +115,104 @@ function Profile() {
     {
         return (
             <div id="profile-page">
-                <h1>Title 日本語</h1>
-                <p>私は気が短いし、口も軽い男だ。 肩慣らしには丁度いいかも。 インターネットのテクノロジーは日進月歩、いや、秒進分歩で進歩している。 イルカは頭のよい遊び好きな生き物だ。 いいからさっき盗ったモノを、カバンの中から出しなさい。 もし電気がないと、私たちの暮らしがどのようなものになるか想像できますか。 これが探していたものだ」と彼は叫んだ。 彼の話はあまりにも馬鹿げていたので誰も信じなかった。 ＡＳＥＡＮという文字は東南アジア諸国連合を表します。 日本には美しい都市が多い。例えば京都、奈良だ。</p>
-                <h1>Title 日本語</h1>
-                <p>１９８４年の８月、私は仕事でたまたま沖縄に行く事になった。 ８時にヒースロー空港に到着する予定です。 もし電気がないと、私たちの暮らしがどのようなものになるか想像できますか。 いつ神戸に来るのか教えて下さい。 彼らのコミュニケーションは我々が考えてきたものよりはるかに複雑かもしれません。 ８時にヒースロー空港に到着する予定です。 ＡＳＥＡＮという文字は東南アジア諸国連合を表します。 家に帰りましょうか。 ２、３ページの英語を訳すのに２時間以上もかかりました。 警察を呼んで！１９８４年の８月、私は仕事でたまたま沖縄に行く事になった。 ８時にヒースロー空港に到着する予定です。 もし電気がないと、私たちの暮らしがどのようなものになるか想像できますか。 いつ神戸に来るのか教えて下さい。 彼らのコミュニケーションは我々が考えてきたものよりはるかに複雑かもしれません。 ８時にヒースロー空港に到着する予定です。 ＡＳＥＡＮという文字は東南アジア諸国連合を表します。 家に帰りましょうか。 ２、３ページの英語を訳すのに２時間以上もかかりました。 警察を呼んで！</p>
-                <h1>Title 日本語</h1>
-                <p>ＡＳＥＡＮという文字は東南アジア諸国連合を表します。 10分だけ付き合おう。 家に帰りましょうか。 いよいよという時に言葉が出ない。 申し訳ないけど長居できないんですよ。 おはよう」とトムは微笑みながら言った。 家に帰りましょうか。 日本には美しい都市が多い。例えば京都、奈良だ。 「はい」と「いいえ」しか言わない人と会話を続けるのは難しい。 １０２゜Ｆの熱があります。ＡＳＥＡＮという文字は東南アジア諸国連合を表します。 10分だけ付き合おう。 家に帰りましょうか。 いよいよという時に言葉が出ない。 申し訳ないけど長居できないんですよ。 おはよう」とトムは微笑みながら言った。 家に帰りましょうか。 日本には美しい都市が多い。例えば京都、奈良だ。 「はい」と「いいえ」しか言わない人と会話を続けるのは難しい。 １０２゜Ｆの熱があります。</p>
+                <h2>自己紹介</h2>
+                <p>
+                    こんにちは！ダイです。フランスのストラスブール在住のWebデベロッパーで、ちょっと変わった経歴の持ち主です。ストラスブール大学で英文学と日本語を学び、大学院では教育学を修めました。その後、二年間、東京で働きました
+                </p> 
+                <p>
+                    東京では「東京ワンピースタワー」のマーケティングチームで、翻訳やPRのお手伝いをする機会がありました。（本当に残念なことにコロナの影響で、2020年に閉館してしまいました）その後、フリーランスのフランス語・英語教師として働きました。
+                </p> 
+                <p>
+                    この二年間は私にとってかけがえのない経験となりました。日本語を上達させ、マーケティングや異文化での生活、さらに自分自身にについても多くを学びました。だからこそ、キャリアを変えるため、2019年にフランスに戻ることにしたのです。まず、コルマールのCCIでWeb開発を勉強し、さらにアルテルナンス（インターンシップみたいなもの）をしながらCESIに通うことから始めました。
+                </p> 
+                <p>
+                    現在は、これまでの経験を活かしながら、スキルアップを測れるようなウェブ開発の仕事を探しています。
+                </p>
+                <h2>職歴</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>ITデベロッパー - Roederer（アルテルナンス</li>
+                            <li>ストラスブール</li>
+                            <li>2020年9月 - 現在</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>フリーランス仏語・英語教師</li>
+                            <li>東京</li>
+                            <li>2018年</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>東京ワンピースタワー広報 インターナショナルスタッフ</li>
+                            <li>東京</li>
+                            <li>2017年</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>教師(研修生) : Education Nationale</li>
+                            <li>リヨン/ストラスブール</li>
+                            <li>2014年-2016年</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>ライター - 翻訳 - Japoninfos.com</li>
+                            <li>テレワーク</li>
+                            <li>2013年-2016年</li>
+                        </ul>
+                    </div>
+                </ul>
+
+                <h2>学歴</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>Bac + 3 Software Engineering</li>
+                            <li>CESI - ストラスブール</li>
+                            <li>2020年9月-2021年9月</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bac + 2 Web Development</li>
+                            <li>CCI - コルマール</li>
+                            <li>2019年10月 - 2020年7月</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Master 2 教育学科</li>
+                            <li>ESPE リヨン/ストラスブール大学大学院</li>
+                            <li>2014年- 2016年</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>日本文学科</li>
+                            <li>ストラスブール大学</li>
+                            <li>2012年- 2014年</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>英文学科</li>
+                            <li>ストラスブール大学</li>
+                            <li>2009年- 2012年</li>
+                        </ul>
+                    </div>
+                </ul>
             </div>
         );
     } 
@@ -36,12 +220,104 @@ function Profile() {
     {
         return (
             <div id="profile-page">
-                <h1>Title ENGLISH</h1>
-                <p>Even though using "lorem ipsum" often arouses curiosity due to its resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a document, people tend to focus on the textual content rather than upon overall presentation, so publishers use lorem ipsum when displaying a typeface or design in order to direct the focus to presentation. "Lorem ipsum" also approximates a typical distribution of spaces in English.</p>
-                <h1>Title ENGLISH</h1>
-                <p>The most common lorem ipsum text reads as follows: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. The most common lorem ipsum text reads as follows: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1>Title ENGLISH</h1>
-                <p>The text is derived from Cicero's De Finibus Bonorum et Malorum (On the Ends of Goods and Evils, or alternatively [About] The Purposes of Good and Evil ). The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Translation: "Neither is there anyone who loves grief itself since it is grief and thus wants to obtain it"). It is not known exactly when the text acquired its current standard form; it may have been as late as the 1960s. The passage was discovered by Richard McClintock, a Latin scholar who is the publications director at Hampden-Sydney College in Virginia, by searching for citings of the rarely used word 'consectetur' in classical literature. The text is derived from Cicero's De Finibus Bonorum et Malorum (On the Ends of Goods and Evils, or alternatively [About] The Purposes of Good and Evil ). The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Translation: "Neither is there anyone who loves grief itself since it is grief and thus wants to obtain it"). It is not known exactly when the text acquired its current standard form; it may have been as late as the 1960s. The passage was discovered by Richard McClintock, a Latin scholar who is the publications director at Hampden-Sydney College in Virginia, by searching for citings of the rarely used word 'consectetur' in classical literature.</p>
+                <h2>Who am I ?</h2>
+                <p>
+                    Hello my name is Dai, and I’m a web developer living in Strasbourg with a kind of unusual background. I studied English and Japanese at the Strasbourg University, and got a Master degree in education and teaching. After that I went to Japan, lived and worked there for two years. 
+                </p> 
+                <p>
+                    In Japan I had the opportunity to work in the marketing team of the “Tokyo One Piece Tower” doing translation and assisting in PR (the parc unfortunately closed in 2020 due to coronavirus). After that I worked as a freelance French and English teacher.
+                </p> 
+                <p>
+                    Those two years were for me an unforgettable experience. I could improve my Japanese language skills, learn about marketing, life in another culture, and I also learnt a lot about myself. That is why I’ve decided to come back to France in 2019 to change my career. I’ve started this change of career by studying web development at the Colmar CCI, and then by joining the CESI while doing an internship. 
+                </p> 
+                <p>
+                    Currently I’m looking for a web developer job where I can level up my skills while taking advantage of my previous work experiences. 
+                </p>
+                <h2>Work Experiences</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>IT Developer - Roederer (Internship)</li>
+                            <li>Strasbourg</li>
+                            <li>9/2020 - now</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Freelance French and English Teacher</li>
+                            <li>Tokyo</li>
+                            <li>2018</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>International Staff in PR - Tokyo One Piece Tower</li>
+                            <li>Tokyo</li>
+                            <li>2017</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Intern Teacher - Education Nationale</li>
+                            <li>Lyon / Strasbourg</li>
+                            <li>2014-2016</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Redactor - Translator - Japoninfos.com</li>
+                            <li>Remote work</li>
+                            <li>2013-2016</li>
+                        </ul>
+                    </div>
+                </ul>
+
+                <h2>Education</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>Bac + 3 Software Engineering</li>
+                            <li>CESI - Strasbourg</li>
+                            <li>09/2020 - 09/2021</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bac + 2 Web Development</li>
+                            <li>CCI - Colmar</li>
+                            <li>10/2019 - 07/2020</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Master 2 MEEF - Teaching and Education</li>
+                            <li>ESPE Lyon/Strasbourg </li>
+                            <li>2014 - 2016</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bachelor in Japanese</li>
+                            <li>University of Strasbourg</li>
+                            <li>2012 - 2014</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bachelor in English</li>
+                            <li>University of Strasbourg</li>
+                            <li>2009 - 2012</li>
+                        </ul>
+                    </div>
+                </ul>
             </div>
         )
     }
@@ -49,12 +325,104 @@ function Profile() {
     {
         return (
             <div id="profile-page">
-                <h1>Title ENGLISH</h1>
-                <p>Even though using "lorem ipsum" often arouses curiosity due to its resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a document, people tend to focus on the textual content rather than upon overall presentation, so publishers use lorem ipsum when displaying a typeface or design in order to direct the focus to presentation. "Lorem ipsum" also approximates a typical distribution of spaces in English.</p>
-                <h1>Title ENGLISH</h1>
-                <p>The most common lorem ipsum text reads as follows: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. The most common lorem ipsum text reads as follows: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1>Title ENGLISH</h1>
-                <p>The text is derived from Cicero's De Finibus Bonorum et Malorum (On the Ends of Goods and Evils, or alternatively [About] The Purposes of Good and Evil ). The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Translation: "Neither is there anyone who loves grief itself since it is grief and thus wants to obtain it"). It is not known exactly when the text acquired its current standard form; it may have been as late as the 1960s. The passage was discovered by Richard McClintock, a Latin scholar who is the publications director at Hampden-Sydney College in Virginia, by searching for citings of the rarely used word 'consectetur' in classical literature. The text is derived from Cicero's De Finibus Bonorum et Malorum (On the Ends of Goods and Evils, or alternatively [About] The Purposes of Good and Evil ). The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Translation: "Neither is there anyone who loves grief itself since it is grief and thus wants to obtain it"). It is not known exactly when the text acquired its current standard form; it may have been as late as the 1960s. The passage was discovered by Richard McClintock, a Latin scholar who is the publications director at Hampden-Sydney College in Virginia, by searching for citings of the rarely used word 'consectetur' in classical literature.</p>
+                <h2>Who am I ?</h2>
+                <p>
+                    Hello my name is Dai, and I’m a web developer living in Strasbourg with a kind of unusual background. I studied English and Japanese at the Strasbourg University, and got a Master degree in education and teaching. After that I went to Japan, lived and worked there for two years. 
+                </p> 
+                <p>
+                    In Japan I had the opportunity to work in the marketing team of the “Tokyo One Piece Tower” doing translation and assisting in PR (the parc unfortunately closed in 2020 due to coronavirus). After that I worked as a freelance French and English teacher.
+                </p> 
+                <p>
+                    Those two years were for me an unforgettable experience. I could improve my Japanese language skills, learn about marketing, life in another culture, and I also learnt a lot about myself. That is why I’ve decided to come back to France in 2019 to change my career. I’ve started this change of career by studying web development at the Colmar CCI, and then by joining the CESI while doing an internship. 
+                </p> 
+                <p>
+                    Currently I’m looking for a web developer job where I can level up my skills while taking advantage of my previous work experiences. 
+                </p>
+                <h2>Work Experiences</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>IT Developer - Roederer (Internship)</li>
+                            <li>Strasbourg</li>
+                            <li>9/2020 - now</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Freelance French and English Teacher</li>
+                            <li>Tokyo</li>
+                            <li>2018</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>International Staff in PR - Tokyo One Piece Tower</li>
+                            <li>Tokyo</li>
+                            <li>2017</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Intern Teacher - Education Nationale</li>
+                            <li>Lyon / Strasbourg</li>
+                            <li>2014-2016</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Redactor - Translator - Japoninfos.com</li>
+                            <li>Remote work</li>
+                            <li>2013-2016</li>
+                        </ul>
+                    </div>
+                </ul>
+
+                <h2>Education</h2>
+                <ul>
+                    <div>
+                        <ul>
+                            <li>Bac + 3 Software Engineering</li>
+                            <li>CESI - Strasbourg</li>
+                            <li>09/2020 - 09/2021</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bac + 2 Web Development</li>
+                            <li>CCI - Colmar</li>
+                            <li>10/2019 - 07/2020</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Master 2 MEEF - Teaching and Education</li>
+                            <li>ESPE Lyon/Strasbourg </li>
+                            <li>2014 - 2016</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bachelor in Japanese</li>
+                            <li>University of Strasbourg</li>
+                            <li>2012 - 2014</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Bachelor in English</li>
+                            <li>University of Strasbourg</li>
+                            <li>2009 - 2012</li>
+                        </ul>
+                    </div>
+                </ul>
             </div>
         )
     }

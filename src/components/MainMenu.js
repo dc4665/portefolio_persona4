@@ -20,7 +20,7 @@ function MainMenu() {
             setMenu1Name("Profile");
             setMenu2Name("Compétences");
             setMenu3Name("Projets");
-            setMenu4Name("Coordonnées");
+            setMenu4Name("Me Contacter");
         } else if(language === "ja") {
             setMenu1Name("プロフィール");
             setMenu2Name("スキル");
@@ -30,12 +30,12 @@ function MainMenu() {
             setMenu1Name("Profile");
             setMenu2Name("Skills");
             setMenu3Name("Projects");
-            setMenu4Name("Contact Me");
+            setMenu4Name("Contact");
         } else {
             setMenu1Name("Profile");
             setMenu2Name("Skills");
             setMenu3Name("Projects");
-            setMenu4Name("Contact Me");
+            setMenu4Name("Contact");
         }
     }, [language]);
     
