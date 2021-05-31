@@ -21,59 +21,46 @@ function WelcomeDisclaimer() {
                 <div className="welcomeExplanation">
                     <LanguagesMenu />
                     <div>
-                        <h2>Bienvenu Dai's Portefolio / Curriculum</h2>
+                        <h2>Bienvenu sur le portfolio de Dai</h2>
                     </div>
 
                     <div>
-                        <h3>Warning</h3>
+                        <h3>Attention</h3>
                         <p>
-                            Some effects on this website can be bad for people
-                            with epileptia
+                            Certains effets sur ce site peuvent être dangereux pour les personnes épileptiques.
                         </p>
                     </div>
 
                     <div>
-                        <h3>What is this Portefolio ?</h3>
+                        <h3>Quel est le concept de ce portfolio?</h3>
                         <p>
-                            This portefolio is inspired by the famous japanese
-                            video game Persona 4
+                            Ce portfolio est inspiré par l’UI du célèbre jeu vidéo “<a href="https://fr.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_4">Persona 4</a>” d’Atlus. 
                         </p>
                     </div>
 
                     <div>
                         <h3>
-                            Why did you make a portefolio inspired by this game
-                            ?
+                            Pourquoi avoir fait un portfolio comme ça?
                         </h3>
                         <ul>
                             <li>
-                                I love video games in general and obviously the
-                                Persona series.
+                                J’aime les jeux vidéos en général et la série “Persona”.
                             </li>
                             <li>
-                                The Persona series (especially Persona 4 and
-                                Persona 5) is acclaimed for its strong visual
-                                identity and UI.
+                                Je voulais créer un portfolio avec un design et un concept inhabituel (pour un site portfolio du moins!).
                             </li>
                             <li>
-                                I wanted to make a portefolio that force me to
-                                take an original visual guideline and adapt it
-                                to create something new.
+                                La série “Persona” est connue pour avoir une identité graphique et des UI recherchées. Je voulais m’imposer cette identité graphique forte comme contrainte pour cet exercice.
                             </li>
                             <li>
-                                I wanted to build something on my own with React
-                                to learn it.
+                                Je voulais tout simplement créer un projet original pour apprendre et utiliser React.
                             </li>
                         </ul>
                     </div>
 
-                    <div>
-                        <p>This website is in French, English and Japanese.</p>
-                    </div>
-
                     <div className="btn-close-container">
                         <button className="btn-close" onClick={closeWelcome}>
-                            Visit My Portefolio
+                            Visiter Mon Portfolio
                         </button>
                     </div>
                 </div>
@@ -86,59 +73,46 @@ function WelcomeDisclaimer() {
                 <div className="welcomeExplanation">
                     <LanguagesMenu />
                     <div>
-                        <h2>ようこそ Dai's Portefolio / Curriculum</h2>
+                        <h2>ダイのポートフォリオサイトへようこそ</h2>
                     </div>
 
                     <div>
-                        <h3>Warning</h3>
+                        <h3>注意</h3>
                         <p>
-                            Some effects on this website can be bad for people
-                            with epileptia
+                            このサイトで使用している効果の中には光過敏性発作をお持ちの方にとって危険となるものがあります。
                         </p>
                     </div>
 
                     <div>
-                        <h3>What is this Portefolio ?</h3>
+                        <h3>ポートフォリオのコンセプト</h3>
                         <p>
-                            This portefolio is inspired by the famous japanese
-                            video game Persona 4
+                            アトラスの『<a href="https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A4">ペルソナ４</a>』のUIに着想を得て、このポートフォリオを制作しました。
                         </p>
                     </div>
 
                     <div>
                         <h3>
-                            Why did you make a portefolio inspired by this game
-                            ?
+                            このポートフォリオを制作した理由
                         </h3>
                         <ul>
                             <li>
-                                I love video games in general and obviously the
-                                Persona series.
+                                ゲーム全般、『ペルソナ』シリーズが大好きだったので。
                             </li>
                             <li>
-                                The Persona series (especially Persona 4 and
-                                Persona 5) is acclaimed for its strong visual
-                                identity and UI.
+                                珍しいデザインとコンセプト（少なくともポートフォリオサイトとしては！）を作ってみたいと思いました。
                             </li>
                             <li>
-                                I wanted to make a portefolio that force me to
-                                take an original visual guideline and adapt it
-                                to create something new.
+                                『ペルソナ』シリーズは、印象的なグラフィックと洗練されたUIで知られています。その強いビジュアルアイデンティティを再現してみようと思いました。
                             </li>
                             <li>
-                                I wanted to build something on my own with React
-                                to learn it.
+                                ただ、Reactを勉強して実践する場としてこのプロジェクトを始めました。
                             </li>
                         </ul>
                     </div>
 
-                    <div>
-                        <p>This website is in French, English and Japanese.</p>
-                    </div>
-
                     <div className="btn-close-container">
                         <button className="btn-close" onClick={closeWelcome}>
-                            Visit My Portefolio
+                            ポートフォリオへ
                         </button>
                     </div>
                 </div>
@@ -151,59 +125,46 @@ function WelcomeDisclaimer() {
                 <div className="welcomeExplanation">
                     <LanguagesMenu />
                     <div>
-                        <h2>Welcome Dai's Portefolio / Curriculum</h2>
+                        <h2>Welcome on Dai’s portfolio</h2>
                     </div>
 
                     <div>
                         <h3>Warning</h3>
                         <p>
-                            Some effects on this website can be bad for people
-                            with epileptia
+                            Some effects on this website can be bad for people with epilepsy.
                         </p>
                     </div>
 
                     <div>
-                        <h3>What is this Portefolio ?</h3>
+                        <h3>What is the concept of this portfolio?</h3>
                         <p>
-                            This portefolio is inspired by the famous japanese
-                            video game Persona 4
+                            This portfolio is inspired by the UI of the famous video game “<a href="https://en.wikipedia.org/wiki/Persona_4">Persona 4</a>” by Atlus.
                         </p>
                     </div>
 
                     <div>
                         <h3>
-                            Why did you make a portefolio inspired by this game
-                            ?
+                            Why did I make this my portfolio like that ?
                         </h3>
                         <ul>
                             <li>
-                                I love video games in general and obviously the
-                                Persona series.
+                                I love video games in general and love the “Persona” series.
                             </li>
                             <li>
-                                The Persona series (especially Persona 4 and
-                                Persona 5) is acclaimed for its strong visual
-                                identity and UI.
+                                I wanted to create a portfolio with an unusual concept and design (at least for a portfolio website!)
                             </li>
                             <li>
-                                I wanted to make a portefolio that force me to
-                                take an original visual guideline and adapt it
-                                to create something new.
+                                The Persona series is well-known for its stylish design and UI. For this project, I wanted to have as a constraint its visual identity. 
                             </li>
                             <li>
-                                I wanted to build something on my own with React
-                                to learn it.
+                                Simply put, I wanted to create an original project to learn and use React.
                             </li>
                         </ul>
                     </div>
 
-                    <div>
-                        <p>This website is in French, English and Japanese.</p>
-                    </div>
-
                     <div className="btn-close-container">
                         <button className="btn-close" onClick={closeWelcome}>
-                            Visit My Portefolio
+                            Visit My Portfolio
                         </button>
                     </div>
                 </div>
@@ -216,59 +177,46 @@ function WelcomeDisclaimer() {
                 <div className="welcomeExplanation">
                     <LanguagesMenu />
                     <div>
-                        <h2>Welcome Dai's Portefolio / Curriculum</h2>
+                        <h2>Welcome on Dai’s portfolio</h2>
                     </div>
 
                     <div>
                         <h3>Warning</h3>
                         <p>
-                            Some effects on this website can be bad for people
-                            with epileptia
+                            Some effects on this website can be bad for people with epilepsy.
                         </p>
                     </div>
 
                     <div>
-                        <h3>What is this Portefolio ?</h3>
+                        <h3>What is the concept of this portfolio?</h3>
                         <p>
-                            This portefolio is inspired by the famous japanese
-                            video game Persona 4
+                            This portfolio is inspired by the UI of the famous video game “<a href="https://en.wikipedia.org/wiki/Persona_4">Persona 4</a>” by Atlus.
                         </p>
                     </div>
 
                     <div>
                         <h3>
-                            Why did you make a portefolio inspired by this game
-                            ?
+                            Why did I make this my portfolio like that ?
                         </h3>
                         <ul>
                             <li>
-                                I love video games in general and obviously the
-                                Persona series.
+                                I love video games in general and love the “Persona” series.
                             </li>
                             <li>
-                                The Persona series (especially Persona 4 and
-                                Persona 5) is acclaimed for its strong visual
-                                identity and UI.
+                                I wanted to create a portfolio with an unusual concept and design (at least for a portfolio website!)
                             </li>
                             <li>
-                                I wanted to make a portefolio that force me to
-                                take an original visual guideline and adapt it
-                                to create something new.
+                                The Persona series is well-known for its stylish design and UI. For this project, I wanted to have as a constraint its visual identity. 
                             </li>
                             <li>
-                                I wanted to build something on my own with React
-                                to learn it.
+                                Simply put, I wanted to create an original project to learn and use React.
                             </li>
                         </ul>
                     </div>
 
-                    <div>
-                        <p>This website is in French, English and Japanese.</p>
-                    </div>
-
                     <div className="btn-close-container">
                         <button className="btn-close" onClick={closeWelcome}>
-                            Visit My Portefolio
+                            Visit My Portfolio
                         </button>
                     </div>
                 </div>

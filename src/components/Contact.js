@@ -43,15 +43,15 @@ function Contact() {
     useEffect(() => {
         if(language === "fr-fr") {
             setTitle1Label("Me contacter");
-            setTitle2Label("Ajoutez moi sur");
+            setTitle2Label("Ajoutez-moi sur");
             setEmailLabel("Votre Email");
             setSubjectLabel("Sujet");
             setMessageLabel("Votre Message");
             setButtonLabel("Envoyez")
         }
         else if(language === "ja") {
-            setTitle1Label("お問い合わせ");
-            setTitle2Label("追加してください");
+            setTitle1Label("お問合せください");
+            setTitle2Label("つながってください");
             setEmailLabel("メール");
             setSubjectLabel("件名");
             setMessageLabel("メッセージ");
