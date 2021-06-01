@@ -25,86 +25,86 @@ function Profile() {
                 </p>
                 <h2>Expériences Professionnelles</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Développeur Informatique - Roederer (Alternance)</li>
-                            <li>Strasbourg</li>
-                            <li>09/2020 - présent</li>
+                            <li className="profile-bloc-name">Développeur Informatique - Roederer (Alternance)</li>
+                            <li className="profile-bloc-loc">Strasbourg</li>
+                            <li className="profile-bloc-time">09/2020 - présent</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Enseignant Freelance français et anglais</li>
-                            <li>Tokyo</li>
-                            <li>2018</li>
+                            <li className="profile-bloc-name">Enseignant Freelance français et anglais</li>
+                            <li className="profile-bloc-loc">Tokyo</li>
+                            <li className="profile-bloc-time">2018</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Staff International en Communication : Tokyo One Piece Tower</li>
-                            <li>Tokyo</li>
-                            <li>2017</li>
+                            <li className="profile-bloc-name">Staff International en Communication : Tokyo One Piece Tower</li>
+                            <li className="profile-bloc-loc">Tokyo</li>
+                            <li className="profile-bloc-time">2017</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Professeur Stagiaire : Education Nationale</li>
-                            <li>Lyon / Strasbourg</li>
-                            <li>2014-2016</li>
+                            <li className="profile-bloc-name">Professeur Stagiaire : Education Nationale</li>
+                            <li className="profile-bloc-loc">Lyon / Strasbourg</li>
+                            <li className="profile-bloc-time">2014 - 2016</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Rédacteur - Traducteur: Japoninfos.com</li>
-                            <li>Travail à distance</li>
-                            <li>2013-2016</li>
+                            <li className="profile-bloc-name">Rédacteur - Traducteur: Japoninfos.com</li>
+                            <li className="profile-bloc-loc">Travail à distance</li>
+                            <li className="profile-bloc-time">2013 - 2016</li>
                         </ul>
                     </div>
                 </ul>
 
                 <h2>Formation</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 3 Responsable en ingénierie des logiciels</li>
-                            <li>CESI - Strasbourg</li>
-                            <li>09/2020 - 09/2021</li>
+                            <li className="profile-bloc-name">Bac + 3 Responsable en ingénierie des logiciels</li>
+                            <li className="profile-bloc-loc">CESI - Strasbourg</li>
+                            <li className="profile-bloc-time">09/2020 - 09/2021</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 2 Développeur intégrateur web PHP orienté objet</li>
-                            <li>CCI - Colmar</li>
-                            <li>10/2019 - 07/2020</li>
+                            <li className="profile-bloc-name">Bac + 2 Développeur intégrateur web PHP orienté objet</li>
+                            <li className="profile-bloc-loc">CCI - Colmar</li>
+                            <li className="profile-bloc-time">10/2019 - 07/2020</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Master 2 MEEF - Métier de l’enseignement</li>
-                            <li>ESPE Lyon/Strasbourg </li>
-                            <li>2014 - 2016</li>
+                            <li className="profile-bloc-name">Master 2 MEEF - Métier de l’enseignement</li>
+                            <li className="profile-bloc-loc">ESPE Lyon/Strasbourg </li>
+                            <li className="profile-bloc-time">2014 - 2016</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Licence 2 LLCE Japonais</li>
-                            <li>Université de Strasbourg</li>
-                            <li>2012 - 2014</li>
+                            <li className="profile-bloc-name">Licence 2 LLCE Japonais</li>
+                            <li className="profile-bloc-loc">Université de Strasbourg</li>
+                            <li className="profile-bloc-time">2012 - 2014</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Licence 3 LLCE Anglais</li>
-                            <li>Université de Strasbourg</li>
-                            <li>2009 - 2012</li>
+                            <li className="profile-bloc-name">Licence 3 LLCE Anglais</li>
+                            <li className="profile-bloc-loc">Université de Strasbourg</li>
+                            <li className="profile-bloc-time">2009 - 2012</li>
                         </ul>
                     </div>
                 </ul>
@@ -130,86 +130,86 @@ function Profile() {
                 </p>
                 <h2>職歴</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>ITデベロッパー - Roederer（アルテルナンス</li>
-                            <li>ストラスブール</li>
-                            <li>2020年9月 - 現在</li>
+                            <li className="profile-bloc-name">ITデベロッパー - Roederer(アルテルナンス)</li>
+                            <li className="profile-bloc-loc">ストラスブール</li>
+                            <li className="profile-bloc-time">2020年9月 - 現在</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>フリーランス仏語・英語教師</li>
-                            <li>東京</li>
-                            <li>2018年</li>
+                            <li className="profile-bloc-name">フリーランス仏語・英語教師</li>
+                            <li className="profile-bloc-loc">東京</li>
+                            <li className="profile-bloc-time">2018年</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>東京ワンピースタワー広報 インターナショナルスタッフ</li>
-                            <li>東京</li>
-                            <li>2017年</li>
+                            <li className="profile-bloc-name">東京ワンピースタワー広報 インターナショナルスタッフ</li>
+                            <li className="profile-bloc-loc">東京</li>
+                            <li className="profile-bloc-time">2017年</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>教師(研修生) : Education Nationale</li>
-                            <li>リヨン/ストラスブール</li>
-                            <li>2014年-2016年</li>
+                            <li className="profile-bloc-name">教師(研修生) : Education Nationale</li>
+                            <li className="profile-bloc-loc">リヨン/ストラスブール</li>
+                            <li className="profile-bloc-time">2014年-2016年</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>ライター - 翻訳 - Japoninfos.com</li>
-                            <li>テレワーク</li>
-                            <li>2013年-2016年</li>
+                            <li className="profile-bloc-name">ライター - 翻訳 - Japoninfos.com</li>
+                            <li className="profile-bloc-loc">テレワーク</li>
+                            <li className="profile-bloc-time">2013年-2016年</li>
                         </ul>
                     </div>
                 </ul>
 
                 <h2>学歴</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 3 Software Engineering</li>
-                            <li>CESI - ストラスブール</li>
-                            <li>2020年9月-2021年9月</li>
+                            <li className="profile-bloc-name">Bac + 3 Software Engineering</li>
+                            <li className="profile-bloc-loc">CESI - ストラスブール</li>
+                            <li className="profile-bloc-time">2020年9月-2021年9月</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 2 Web Development</li>
-                            <li>CCI - コルマール</li>
-                            <li>2019年10月 - 2020年7月</li>
+                            <li className="profile-bloc-name">Bac + 2 Web Development</li>
+                            <li className="profile-bloc-loc">CCI - コルマール</li>
+                            <li className="profile-bloc-time">2019年10月 - 2020年7月</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Master 2 教育学科</li>
-                            <li>ESPE リヨン/ストラスブール大学大学院</li>
-                            <li>2014年- 2016年</li>
+                            <li className="profile-bloc-name">Master 2 教育学科</li>
+                            <li className="profile-bloc-loc">ESPE リヨン/ストラスブール大学大学院</li>
+                            <li className="profile-bloc-time">2014年- 2016年</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>日本文学科</li>
-                            <li>ストラスブール大学</li>
-                            <li>2012年- 2014年</li>
+                            <li className="profile-bloc-name">日本文学科</li>
+                            <li className="profile-bloc-loc">ストラスブール大学</li>
+                            <li className="profile-bloc-time">2012年- 2014年</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>英文学科</li>
-                            <li>ストラスブール大学</li>
-                            <li>2009年- 2012年</li>
+                            <li className="profile-bloc-name">英文学科</li>
+                            <li className="profile-bloc-loc">ストラスブール大学</li>
+                            <li className="profile-bloc-time">2009年- 2012年</li>
                         </ul>
                     </div>
                 </ul>
@@ -235,86 +235,86 @@ function Profile() {
                 </p>
                 <h2>Work Experiences</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>IT Developer - Roederer (Internship)</li>
-                            <li>Strasbourg</li>
-                            <li>9/2020 - now</li>
+                            <li className="profile-bloc-name">IT Developer - Roederer (Internship)</li>
+                            <li className="profile-bloc-loc">Strasbourg</li>
+                            <li className="profile-bloc-time">9/2020 - now</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Freelance French and English Teacher</li>
-                            <li>Tokyo</li>
-                            <li>2018</li>
+                            <li className="profile-bloc-name">Freelance French and English Teacher</li>
+                            <li className="profile-bloc-loc">Tokyo</li>
+                            <li className="profile-bloc-time">2018</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>International Staff in PR - Tokyo One Piece Tower</li>
-                            <li>Tokyo</li>
-                            <li>2017</li>
+                            <li className="profile-bloc-name">International Staff in PR - Tokyo One Piece Tower</li>
+                            <li className="profile-bloc-loc">Tokyo</li>
+                            <li className="profile-bloc-time">2017</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Intern Teacher - Education Nationale</li>
-                            <li>Lyon / Strasbourg</li>
-                            <li>2014-2016</li>
+                            <li className="profile-bloc-name">Intern Teacher - Education Nationale</li>
+                            <li className="profile-bloc-loc">Lyon / Strasbourg</li>
+                            <li className="profile-bloc-time">2014-2016</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Redactor - Translator - Japoninfos.com</li>
-                            <li>Remote work</li>
-                            <li>2013-2016</li>
+                            <li className="profile-bloc-name">Redactor - Translator - Japoninfos.com</li>
+                            <li className="profile-bloc-loc">Remote work</li>
+                            <li className="profile-bloc-time">2013-2016</li>
                         </ul>
                     </div>
                 </ul>
 
                 <h2>Education</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 3 Software Engineering</li>
-                            <li>CESI - Strasbourg</li>
-                            <li>09/2020 - 09/2021</li>
+                            <li className="profile-bloc-name">Bac + 3 Software Engineering</li>
+                            <li className="profile-bloc-loc">CESI - Strasbourg</li>
+                            <li className="profile-bloc-time">09/2020 - 09/2021</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 2 Web Development</li>
-                            <li>CCI - Colmar</li>
-                            <li>10/2019 - 07/2020</li>
+                            <li className="profile-bloc-name">Bac + 2 Web Development</li>
+                            <li className="profile-bloc-loc">CCI - Colmar</li>
+                            <li className="profile-bloc-time">10/2019 - 07/2020</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Master 2 MEEF - Teaching and Education</li>
-                            <li>ESPE Lyon/Strasbourg </li>
-                            <li>2014 - 2016</li>
+                            <li className="profile-bloc-name">Master 2 MEEF - Teaching and Education</li>
+                            <li className="profile-bloc-loc">ESPE Lyon/Strasbourg </li>
+                            <li className="profile-bloc-time">2014 - 2016</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bachelor in Japanese</li>
-                            <li>University of Strasbourg</li>
-                            <li>2012 - 2014</li>
+                            <li className="profile-bloc-name">Bachelor in Japanese</li>
+                            <li className="profile-bloc-loc">University of Strasbourg</li>
+                            <li className="profile-bloc-time">2012 - 2014</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bachelor in English</li>
-                            <li>University of Strasbourg</li>
-                            <li>2009 - 2012</li>
+                            <li className="profile-bloc-name">Bachelor in English</li>
+                            <li className="profile-bloc-loc">University of Strasbourg</li>
+                            <li className="profile-bloc-time">2009 - 2012</li>
                         </ul>
                     </div>
                 </ul>
@@ -340,86 +340,86 @@ function Profile() {
                 </p>
                 <h2>Work Experiences</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>IT Developer - Roederer (Internship)</li>
-                            <li>Strasbourg</li>
-                            <li>9/2020 - now</li>
+                            <li className="profile-bloc-name">IT Developer - Roederer (Internship)</li>
+                            <li className="profile-bloc-loc">Strasbourg</li>
+                            <li className="profile-bloc-time">9/2020 - now</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Freelance French and English Teacher</li>
-                            <li>Tokyo</li>
-                            <li>2018</li>
+                            <li className="profile-bloc-name">Freelance French and English Teacher</li>
+                            <li className="profile-bloc-loc">Tokyo</li>
+                            <li className="profile-bloc-time">2018</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>International Staff in PR - Tokyo One Piece Tower</li>
-                            <li>Tokyo</li>
-                            <li>2017</li>
+                            <li className="profile-bloc-name">International Staff in PR - Tokyo One Piece Tower</li>
+                            <li className="profile-bloc-loc">Tokyo</li>
+                            <li className="profile-bloc-time">2017</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Intern Teacher - Education Nationale</li>
-                            <li>Lyon / Strasbourg</li>
-                            <li>2014-2016</li>
+                            <li className="profile-bloc-name">Intern Teacher - Education Nationale</li>
+                            <li className="profile-bloc-loc">Lyon / Strasbourg</li>
+                            <li className="profile-bloc-time">2014-2016</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Redactor - Translator - Japoninfos.com</li>
-                            <li>Remote work</li>
-                            <li>2013-2016</li>
+                            <li className="profile-bloc-name">Redactor - Translator - Japoninfos.com</li>
+                            <li className="profile-bloc-loc">Remote work</li>
+                            <li className="profile-bloc-time">2013-2016</li>
                         </ul>
                     </div>
                 </ul>
 
                 <h2>Education</h2>
                 <ul>
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 3 Software Engineering</li>
-                            <li>CESI - Strasbourg</li>
-                            <li>09/2020 - 09/2021</li>
+                            <li className="profile-bloc-name">Bac + 3 Software Engineering</li>
+                            <li className="profile-bloc-loc">CESI - Strasbourg</li>
+                            <li className="profile-bloc-time">09/2020 - 09/2021</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bac + 2 Web Development</li>
-                            <li>CCI - Colmar</li>
-                            <li>10/2019 - 07/2020</li>
+                            <li className="profile-bloc-name">Bac + 2 Web Development</li>
+                            <li className="profile-bloc-loc">CCI - Colmar</li>
+                            <li className="profile-bloc-time">10/2019 - 07/2020</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Master 2 MEEF - Teaching and Education</li>
-                            <li>ESPE Lyon/Strasbourg </li>
-                            <li>2014 - 2016</li>
+                            <li className="profile-bloc-name">Master 2 MEEF - Teaching and Education</li>
+                            <li className="profile-bloc-loc">ESPE Lyon/Strasbourg </li>
+                            <li className="profile-bloc-time">2014 - 2016</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bachelor in Japanese</li>
-                            <li>University of Strasbourg</li>
-                            <li>2012 - 2014</li>
+                            <li className="profile-bloc-name">Bachelor in Japanese</li>
+                            <li className="profile-bloc-loc">University of Strasbourg</li>
+                            <li className="profile-bloc-time">2012 - 2014</li>
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="profile-bloc">
                         <ul>
-                            <li>Bachelor in English</li>
-                            <li>University of Strasbourg</li>
-                            <li>2009 - 2012</li>
+                            <li className="profile-bloc-name">Bachelor in English</li>
+                            <li className="profile-bloc-loc">University of Strasbourg</li>
+                            <li className="profile-bloc-time">2009 - 2012</li>
                         </ul>
                     </div>
                 </ul>
