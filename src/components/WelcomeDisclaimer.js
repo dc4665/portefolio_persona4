@@ -144,7 +144,7 @@ function WelcomeDisclaimer() {
 
                     <div>
                         <h3>
-                            Why did I make this my portfolio like that ?
+                            Why did I make my portfolio like that ?
                         </h3>
                         <ul>
                             <li>
@@ -196,7 +196,7 @@ function WelcomeDisclaimer() {
 
                     <div>
                         <h3>
-                            Why did I make this my portfolio like that ?
+                            Why did I make my portfolio like that ?
                         </h3>
                         <ul>
                             <li>
