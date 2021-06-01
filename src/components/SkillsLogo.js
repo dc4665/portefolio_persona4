@@ -7,6 +7,8 @@ import Javascript from './Javascript';
 import Node from './Node';
 import PhpWordpress from './PhpWordpress';
 import PhotoshopFigma from './PhotoshopFigma';
+import Ci from './Ci';
+import Languages from './Languages';
 
 function SkillsLogo() {
     /* Setting Menu Languages */
@@ -20,7 +22,7 @@ function SkillsLogo() {
             case "HTML - CSS3 - SASS":
                 return <HtmlCssSass />
             
-            case "Javascript - React":
+            case "Javascript - React - GSAP":
                 return <Javascript />
 
             case "MongoDB - Express - Node":
@@ -31,6 +33,12 @@ function SkillsLogo() {
 
             case "Photoshop - Figma":
                 return <PhotoshopFigma />
+
+            case "Git - Docker":
+                return <Ci />
+
+            case "Languages":
+                return <Languages />
 
             default:
                 return <p>Default Skill</p>    
@@ -44,7 +52,7 @@ function SkillsLogo() {
                 case "HTML - CSS3 - SASS":
                     return "La base de tout développement Web :). J’ai commencé à m’intéresser de plus en plus aux animations en CSS et au framework d’animation GSAP. Autrement je travaille en général avec SASS."
                 
-                case "Javascript - React":
+                case "Javascript - React - GSAP":
                     return "J’adore travailler avec ce langage et souhaiterais me spécialiser dessus. Pour le moment je cherche à monter en compétence sur le framework React."
     
                 case "MongoDB - Express - Node":
@@ -55,7 +63,13 @@ function SkillsLogo() {
     
                 case "Photoshop - Figma":
                     return "J’ai les bases sur Photoshop et Illustrator. J’utilise Figma pour le maquettage. J’ai également des bases en photographie avec reflex."
-    
+                
+                case "Git - Docker":
+                    return "J’utilise Git pour versionner mes projets. Je suis encore débutant sur Docker mais l’utilise pour créer des environnements de développement pour mes projets."
+                
+                case "Languages":
+                    return "Je suis natif français. J’ai obtenu une licence d’anglais et même si j’ai appris le “RP English” je ne parle pas comme la Reine. Le japonais est la chose la plus difficile que j’ai apprise à part l’informatique, je suis très fier de mon JLPT N2 ! Autrement je parle vietnamien avec ma maman :)."
+
                 default:
                     return <p>Default Skill</p>    
             }
@@ -65,7 +79,7 @@ function SkillsLogo() {
                 case "HTML - CSS3 - SASS":
                     return "Web開発の基本ですね:) 最近、CSSアニメーションやGSAPのアニメーションフレームワークにも興味を持ち始めました。通常はSASSで作業しています。"
                 
-                case "Javascript - React":
+                case "Javascript - React - GSAP":
                     return "Reactが大好きで、スペシャリストになりたいと思っています。最近はReactにかなり集中していて、もっとスキルを高めたいと思っています。"
     
                 case "MongoDB - Express - Node":
@@ -76,7 +90,13 @@ function SkillsLogo() {
     
                 case "Photoshop - Figma":
                     return "PhotoshopとIllustratorの基本的な機能は使えます。デザインカンプにはFigmaをよく利用します。レフ版を使用するような写真撮影の基本的なスキルも持っています。"
-    
+                
+                case "Git - Docker":
+                    return "プロジェクトのバージョン管理にGitを使用しています。Dockerに関してはまだ初心者ですが、自分のプロジェクトの開発環境を作るために使っています。"
+                
+                case "Languages":
+                    return "フランス語のネイティブです。ビジネスレベルの英語を話せます。（RP、クイーンズ・イングリッシュです）。日本語は一番難しかったけど、日本に行く前にJLPT N2に合格しました両親とはベトナム語で話しています。"
+
                 default:
                     return <p>Default Skill</p>    
             }
@@ -86,7 +106,7 @@ function SkillsLogo() {
                 case "HTML - CSS3 - SASS":
                     return "The base of all web development :). I’m getting more and more interested in animation with CSS and the animation framework GSAP. Otherwise I usually work with SASS."
                 
-                case "Javascript - React":
+                case "Javascript - React - GSAP":
                     return "I love working with this language and wish to be an expert in it. Currently i’m really digging into React and wish to level up my skill in it."
     
                 case "MongoDB - Express - Node":
@@ -97,7 +117,13 @@ function SkillsLogo() {
     
                 case "Photoshop - Figma":
                     return "I have the basics down for Photoshop and Illustrator. I use figma for my mockups. I also have some basics on taking pictures with a reflex."
-    
+                
+                case "Git - Docker":
+                    return "I’m using Git to control version my projects. I’m still a beginner on docker, but I am using it to create development environments for my work. "
+                
+                case "Languages":
+                    return "I’m a French native speaker. I got a bachelor degree in English and even if I learnt the RP I do not speak like the Queen. Japanese is the most difficult thing I’ve learnt aside from programming, I am very proud of my JLPT N2 ! Otherwise I speak Vietnamese with my mom :)."
+
                 default:
                     return <p>Default Skill</p>    
             }
@@ -107,7 +133,7 @@ function SkillsLogo() {
                 case "HTML - CSS3 - SASS":
                     return "The base of all web development :). I’m getting more and more interested in animation with CSS and the animation framework GSAP. Otherwise I usually work with SASS."
                 
-                case "Javascript - React":
+                case "Javascript - React - GSAP":
                     return "I love working with this language and wish to be an expert in it. Currently i’m really digging into React and wish to level up my skill in it."
     
                 case "MongoDB - Express - Node":
@@ -118,7 +144,13 @@ function SkillsLogo() {
     
                 case "Photoshop - Figma":
                     return "I have the basics down for Photoshop and Illustrator. I use figma for my mockups. I also have some basics on taking pictures with a reflex."
-    
+                
+                case "Git - Docker":
+                    return "I’m using Git to control version my projects. I’m still a beginner on docker, but I am using it to create development environments for my work. "
+                
+                case "Languages":
+                    return "I’m a French native speaker. I got a bachelor degree in English and even if I learnt the RP I do not speak like the Queen. Japanese is the most difficult thing I’ve learnt aside from programming, I am very proud of my JLPT N2 ! Otherwise I speak Vietnamese with my mom :)."
+
                 default:
                     return <p>Default Skill</p>    
             }
