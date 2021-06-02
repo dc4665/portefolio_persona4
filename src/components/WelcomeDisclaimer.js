@@ -29,6 +29,9 @@ function WelcomeDisclaimer() {
                         <p>
                             Certains effets sur ce site peuvent être dangereux pour les personnes épileptiques.
                         </p>
+                        <p>
+                            Ce site n’est accessible que sur ordinateur et n’est pas encore totalement optimisé pour le responsive. 
+                        </p>
                     </div>
 
                     <div>
@@ -80,6 +83,9 @@ function WelcomeDisclaimer() {
                         <h3>注意</h3>
                         <p>
                             このサイトで使用している効果の中には光過敏性発作をお持ちの方にとって危険となるものがあります。
+                        </p>
+                        <p>
+                            このサイトはデスクトップPCでのみご利用頂けます。小さな画面ではまだ完全なレスポンシブ対応ではありません。
                         </p>
                     </div>
 
@@ -133,6 +139,9 @@ function WelcomeDisclaimer() {
                         <p>
                             Some effects on this website can be bad for people with epilepsy.
                         </p>
+                        <p>
+                            This website is only accessible by Desktop, and is not yet totally optimized to be responsive. 
+                        </p>
                     </div>
 
                     <div>
@@ -184,6 +193,9 @@ function WelcomeDisclaimer() {
                         <h3>Warning</h3>
                         <p>
                             Some effects on this website can be bad for people with epilepsy.
+                        </p>
+                        <p>
+                            This website is only accessible by Desktop, and is not yet totally optimized to be responsive. 
                         </p>
                     </div>
 
