@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    //border: 4px blue solid;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin: 0 5% 0 10%;
+    //border: green 2px dotted;
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    //border: purple 2px dotted;
+}

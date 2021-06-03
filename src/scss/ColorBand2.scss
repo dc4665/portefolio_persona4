@@ -1,0 +1,88 @@
+@import 'config';
+@import 'utilities';
+
+%band-shared-skills {
+    display: inline-block;
+    height: 100%;
+}
+
+%space-shared {
+    //display: inline-block;
+    //height: 100%;
+}
+
+.band-container-skills {
+    position: absolute;
+    right: 2rem;
+    height: 100%;
+    //z-index: -1;
+}
+
+.band-skills{
+    &-1 {
+        @extend %band-shared-skills;
+        border-left: $band-size-1 $band-color-1 solid;
+    }
+
+    &-2 {
+        @extend %band-shared-skills;
+        border-left: $band-size-2 $band-color-11 solid;
+    }
+
+    &-3 {
+        @extend %band-shared-skills;
+        border-left: $band-size-2 $band-color-11 solid;
+    }
+
+    &-4 {
+        @extend %band-shared-skills;
+        border-left: $band-size-1 $band-color-1 solid;
+    }
+
+    &-5 {
+        @extend %band-shared-skills;
+        border-left: $band-size-1 $band-color-10 solid;
+    }
+
+    &-6 {
+        @extend %band-shared-skills;
+        border-left: $band-size-2 $band-color-12 solid;
+    }
+}
+
+.space-skill{
+    &-1 {
+        @extend %band-shared-skills;
+        margin-left: 3px;
+    }
+
+    &-2 {
+        @extend %band-shared-skills;
+        margin-left: 6px;
+    }
+}
+
+.special-band-container-2 {
+    position: relative;
+    display: inline-block;
+    width: 3vw;
+    height: 100%;
+    background-color: $band-color-9;
+    //background-color: red;
+}
+
+.wave-2 {
+    position: absolute;
+    height: 100vh;
+    width: 70%;
+    animation: 3s linear 3s infinite alternate wave-animation-2;
+}
+
+@keyframes wave-animation-2 {
+    from {
+        margin-bottom: 0%;
+    }
+    to {
+        margin-top: 130%;
+    }
+}

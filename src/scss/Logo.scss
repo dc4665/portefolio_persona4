@@ -1,0 +1,16 @@
+@import 'config';
+
+.skill-logo {
+    filter: drop-shadow(-10px 10px 0 $main-color);
+    margin-bottom: 1.5rem;
+    animation: 0.2s linear logo-animation;
+}
+
+@keyframes logo-animation {
+    from {
+        margin-right: -100%;
+    }
+    to {
+        margin-right: 0%;
+    }
+}

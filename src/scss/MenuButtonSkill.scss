@@ -1,0 +1,44 @@
+@import 'config';
+@import 'utilities';
+
+/* Menu Skill Buttons Container*/
+.btn-skill-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Menu Skill Buttons */
+%btn-shared {
+    background-color: $main-color;
+    border: none;
+}
+
+.btn {
+    &-skill-menu {
+        @extend %btn-shared;
+        width: 10rem;
+        padding: 0.8rem 0 0.8rem 2.5rem;
+        text-align: left;
+        border-radius: 5px;
+        margin: 0.5rem;
+
+        &:hover {
+            width: 12rem;
+            color: $btn-text-color-hover;
+            background-color: $btn-bg-color-hover;
+        }
+
+        &-is-selected {
+            width: 12rem;
+            color: $btn-text-color-hover;
+            background-color: $btn-bg-color-hover;
+        }
+    }
+
+    &-skill-name {
+        color: $third-color;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+}

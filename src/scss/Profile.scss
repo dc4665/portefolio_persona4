@@ -1,0 +1,46 @@
+@import 'config';
+
+#profile-page {
+    background-color: $bg-dark;
+    padding: 1rem 3rem;
+
+    h2 {
+        color: $main-color;
+        font-size: 2.5em;
+    }
+
+    p {
+        color: $font-light;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin: 0.5em 0;
+    }
+
+    .profile-bloc {
+        background-color: $secondary-color;
+        border-radius: 5px;
+        padding: 1em 0;
+        margin-bottom: 1em;
+
+        &-name {
+            font-weight: bold;
+            font-size: 1.4em;
+            color: $third-color;
+        }
+
+        &-loc {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.3em;
+        }
+
+        &-time {
+            font-size: 1.3em;
+        }
+    }
+}

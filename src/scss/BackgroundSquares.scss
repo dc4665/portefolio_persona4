@@ -1,0 +1,17 @@
+.background-squares {
+    //background-color: red;
+    height: 100vh;
+    width: 70vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    //flex-wrap: wrap;
+}
+
+.squares-row {
+    display: flex;
+}

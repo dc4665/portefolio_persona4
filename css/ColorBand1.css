@@ -1,0 +1,109 @@
+/* Color variables */
+/* Font color */
+/* Background-color */
+/* Color buttons */
+/* Fond colors */
+/* Color bands */
+/* Color bands skills */
+/* Size bands */
+.band-1, .band-2, .band-3, .band-4, .band-5, .band-6, .band-7, .band-8, .band-9, .band-10, .space-1, .space-2 {
+  display: inline-block;
+  height: 100%;
+}
+
+.band-container {
+  position: absolute;
+  padding-left: 5rem;
+  height: 100%;
+  z-index: -1;
+}
+
+.band-1 {
+  border-left: 2vw #f28705 solid;
+}
+
+.band-2 {
+  border-left: 1vw #d90754 solid;
+}
+
+.band-3 {
+  border-left: 0.5vw #7663f2 solid;
+}
+
+.band-4 {
+  border-left: 1vw #f28705 solid;
+}
+
+.band-5 {
+  border-left: 0.5vw #f28705 solid;
+}
+
+.band-5 {
+  border-left: 0.5vw #f28705 solid;
+}
+
+.band-5 {
+  border-left: 0.5vw #f28705 solid;
+}
+
+.band-6 {
+  border-left: 0.5vw #77c641 solid;
+}
+
+.band-7 {
+  border-left: 1vw #a07695 solid;
+}
+
+.band-8 {
+  border-left: 2vw #92fcef solid;
+}
+
+.band-9 {
+  border-left: 0.5vw #cec6ba solid;
+}
+
+.band-10 {
+  border-left: 1vw #bfbc6e solid;
+}
+
+.space-1 {
+  margin-left: 3px;
+}
+
+.space-2 {
+  margin-left: 6px;
+}
+
+.special-band-container {
+  position: relative;
+  display: inline-block;
+  width: 3vw;
+  height: 100%;
+  background-color: #f28705;
+}
+
+.wave {
+  position: absolute;
+  height: 100vh;
+  width: 70%;
+  -webkit-animation: 4s linear 4s infinite alternate wave-animation;
+          animation: 4s linear 4s infinite alternate wave-animation;
+}
+
+@-webkit-keyframes wave-animation {
+  from {
+    margin-bottom: 0%;
+  }
+  to {
+    margin-top: 100%;
+  }
+}
+
+@keyframes wave-animation {
+  from {
+    margin-bottom: 0%;
+  }
+  to {
+    margin-top: 100%;
+  }
+}

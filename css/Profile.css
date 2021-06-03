@@ -1,0 +1,51 @@
+/* Color variables */
+/* Font color */
+/* Background-color */
+/* Color buttons */
+/* Fond colors */
+/* Color bands */
+/* Color bands skills */
+#profile-page {
+  background-color: #41403E;
+  padding: 1rem 3rem;
+}
+
+#profile-page h2 {
+  color: #f2e529;
+  font-size: 2.5em;
+}
+
+#profile-page p {
+  color: #ffffff;
+}
+
+#profile-page ul {
+  list-style: none;
+}
+
+#profile-page li {
+  margin: 0.5em 0;
+}
+
+#profile-page .profile-bloc {
+  background-color: #fff5a8;
+  border-radius: 5px;
+  padding: 1em 0;
+  margin-bottom: 1em;
+}
+
+#profile-page .profile-bloc-name {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #f28705;
+}
+
+#profile-page .profile-bloc-loc {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+#profile-page .profile-bloc-time {
+  font-size: 1.3em;
+}
