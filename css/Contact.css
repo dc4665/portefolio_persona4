@@ -120,3 +120,8 @@
   width: 40ch;
   height: 10vh;
 }
+
+#contact-container .email-address {
+  color: #f28705;
+  font-size: 2em;
+}
