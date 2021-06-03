@@ -14,7 +14,7 @@ function WarningMobile() {
                     <h2>Attention</h2>
                 </div>
                 <div>
-                    <p>Ce site n'est pas encore optimisé pour le mobile, désolé ! Veuillez consulter mon portefolio sur un ordinateur pour la meilleure expérience.</p>
+                    <p>Ce site n'est pas encore optimisé pour le mobile, désolé ! Veuillez consulter mon portfolio sur un ordinateur pour la meilleure expérience.</p>
                 </div>
                 <div>
                     <p>Dai</p>
@@ -30,7 +30,7 @@ function WarningMobile() {
                     <h2>注意</h2>
                 </div>
                 <div>
-                    <p>Ce site n'est pas encore optimisé pour le mobile, désolé ! Veuillez consulter mon portefolio sur un ordinateur pour la meilleure expérience.</p>
+                    <p>このサイトはモバイル対応していません。スミマセン汗 全ての表現効果を最適な環境で見るために、デスクトップPCからご覧ください。</p>
                 </div>
                 <div>
                     <p>Dai</p>
@@ -46,7 +46,7 @@ function WarningMobile() {
                     <h2>Warning</h2>
                 </div>
                 <div>
-                    <p>Ce site n'est pas encore optimisé pour le mobile, désolé ! Veuillez consulter mon portefolio sur un ordinateur pour la meilleure expérience.</p>
+                    <p>This site is not yet optimized for mobile, sorry ! Please look at my portfolio from a desktop for the best experience.</p>
                 </div>
                 <div>
                     <p>Dai</p>
@@ -62,7 +62,7 @@ function WarningMobile() {
                     <h2>Warning</h2>
                 </div>
                 <div>
-                    <p>Ce site n'est pas encore optimisé pour le mobile, désolé ! Veuillez consulter mon portefolio sur un ordinateur pour la meilleure expérience.</p>
+                    <p>This site is not yet optimized for mobile, sorry ! Please look at my portfolio from a desktop for the best experience.</p>
                 </div>
                 <div>
                     <p>Dai</p>

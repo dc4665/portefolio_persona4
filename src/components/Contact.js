@@ -42,7 +42,7 @@ function Contact() {
             setTitle2Label("Ajoutez-moi sur");
         }
         else if(language === "ja") {
-            setTitle1Label("お問合せください");
+            setTitle1Label("お問合せはこちら");
             setTitle2Label("つながってください");
         }
         else if(language === "en-us") {
